@@ -19,7 +19,7 @@ test_labels <- read.table(file[16])
 train_labels <- read.table(file[28])
 subject_test<-read.table(file[14])
 subject_train<-read.table(file[26])
-(activity_labels <-read.table(file[1])
+activity_labels <-read.table(file[1])
 ##Close connection
 unlink(temp)
 
